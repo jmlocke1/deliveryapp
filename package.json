@@ -1,25 +1,35 @@
 {
-  "name": "cafeteria",
+  "name": "deliveryapp",
   "version": "1.0.0",
   "description": "Delivery App, BEM, SASS, Gulp, CSS Grid",
   "main": "index.js",
   "scripts": {
     "dev": "gulp"
   },
-  "author": "Juan De la torre @codigoconjuan",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:jmlocke1/deliveryapp.git"
+  },
+  "author": "José Miguel Izquierdo Martínez",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmlocke1/deliveryapp/issues"
+  },
+  "homepage": "https://github.com/jmlocke1/deliveryapp#readme",
   "devDependencies": {
-    "autoprefixer": "^10.3.1",
-    "cssnano": "^5.0.7",
+    "autoprefixer": "^10.4.16",
+    "cssnano": "^6.1.2",
     "gulp": "^4.0.2",
-    "gulp-avif": "^1.0.1",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-postcss": "^9.0.0",
-    "gulp-sass": "^5.0.0",
+    "gulp-avif": "^1.1.1",
+    "gulp-cache": "^1.1.3",
+    "gulp-imagemin": "^9.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
-    "gulp-webp": "^4.0.1",
-    "postcss": "^8.3.6",
-    "sass": "^1.37.5"
+    "gulp-webp": "^5.0.0",
+    "postcss": "^8.4.31",
+    "sass": "^1.69.5"
   },
   "browserslist": [
     "last 1 version",
