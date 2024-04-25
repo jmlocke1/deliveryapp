@@ -21,5 +21,27 @@
             <a href="#" class="navegacion__link navegacion__link--registrar">Registrar Restaurante</a>
         </nav>
     </header>
+
+    <section class="contenedor formulario">
+        <div class="formulario__grid">
+            <div class="formulario__contenido">
+                <h2 class="formulario__heading">Encuentra y pide comida de tu restaurante favorito</h2>
+                <form action="" class="formulario__buscar">
+                    <div class="formulario__campo">
+                        <label for="restaurante" class="formulario__label">Restaurante</label>
+                        <input class="formulario__input" type="text" name="restaurante" id="restaurante" placeholder="Tacos México">
+                    </div>
+                    <div class="formulario__campo">
+                        <label for="platillo" class="formulario__label">Platillo</label>
+                        <input class="formulario__input" type="text" name="platillo" id="platillo" placeholder="Pizza, Ensalada, Hamburguesa">
+                    </div>
+                    <input type="submit" value="Buscar" class="formulario__submit">
+                </form>
+            </div>
+            <div class="formulario__imagen-contenedor">
+                <img class="formulario__imagen" src="build/img/dibujo_repartidor.svg" alt="Imagen repartidor">
+            </div>
+        </div>
+    </section>
 </body>
 </html>
